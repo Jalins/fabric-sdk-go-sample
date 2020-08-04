@@ -71,7 +71,7 @@ func (c *Client) InstantiateCC(v string, peer string) (fab.TransactionID,
 	// new request
 	// Attention: args should include `init` for Request not
 	// have a method term to call init
-	args := packArgs([]string{"init", "a", "100", "b", "200"})
+	args := packArgs([]string{"init", "a", "10000", "b", "20000"})
 	req := resmgmt.InstantiateCCRequest{
 		Name:    c.CCID,
 		Path:    c.CCPath,
@@ -104,7 +104,7 @@ func (c *Client) genPolicy(p string) (*common.SignaturePolicyEnvelope, error) {
 
 func (c *Client) InvokeCC(peers []string) (channel.Response, error) {
 	// new channel request for invoke
-	args := packArgs([]string{"a", "b", "10"})
+	args := packArgs([]string{"a", "b", "1"})
 	req := channel.Request{
 		ChaincodeID: c.CCID,
 		Fcn:         "invoke",
@@ -186,7 +186,7 @@ func (c *Client) UpgradeCC(v string, peer string) error {
 	// Attention: args should include `init` for Request not
 	// have a method term to call init
 	// Reset a b's value to test the upgrade
-	args := packArgs([]string{"init", "a", "1000", "b", "2000"})
+	args := packArgs([]string{"init", "a", "12000", "b", "22000"})
 	req := resmgmt.UpgradeCCRequest{
 		Name:    c.CCID,
 		Path:    c.CCPath,

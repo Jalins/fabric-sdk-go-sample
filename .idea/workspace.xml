@@ -21,8 +21,15 @@
   <component name="ChangeListManager">
     <list default="true" id="90384d0e-869c-40aa-b4d2-7f569803c9ae" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/channel.go" beforeDir="false" afterPath="$PROJECT_DIR$/client/channel.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/resmgmt.go" beforeDir="false" afterPath="$PROJECT_DIR$/client/resmgmt.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/cmd.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/cmd.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/config/config.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/org1-config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/org1-config.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/z-ledger-sdk-go-sample" beforeDir="false" afterPath="$PROJECT_DIR$/z-ledger-sdk-go-sample" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/main_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/fabca.go" beforeDir="false" afterPath="$PROJECT_DIR$/service/fabca.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/fabric.go" beforeDir="false" afterPath="$PROJECT_DIR$/service/fabric.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,10 +50,14 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="configurable.Global.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Module.GOPATH.is.expanded" value="false" />
+    <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/config" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="go.vgo" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -147,6 +158,10 @@
     <state width="1398" height="198" key="GridCell.Tab.1.right/0.23.1440.806@0.23.1440.806" timestamp="1594261489186" />
     <state width="1398" height="327" key="GridCell.Tab.1.right/0.23.1440.808@0.23.1440.808" timestamp="1594273829584" />
     <state width="1398" height="182" key="GridCell.Tab.1.right/0.23.1440.811@0.23.1440.811" timestamp="1594277694194" />
+    <state x="1909" y="190" key="SettingsEditor" timestamp="1596515017882">
+      <screen x="1440" y="23" width="1920" height="1057" />
+    </state>
+    <state x="1909" y="190" key="SettingsEditor/0.23.1440.806/1440.23.1920.1057@1440.23.1920.1057" timestamp="1596515017882" />
     <state width="720" height="401" key="XDebugger.FullValuePopup" timestamp="1594112436240">
       <screen x="0" y="23" width="1440" height="808" />
     </state>
